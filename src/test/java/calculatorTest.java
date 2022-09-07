@@ -23,6 +23,12 @@ public class calculatorTest {
 		assertEquals(20, calc.add(5, 5, 10));
 		
 	}
+	
+	@Test
+	public void addFourNumbers() {
+		assertEquals(25, calc.add(5, 5, 10, 5));
+		
+	}
 
 	@Test
 	public void subtractTwoNumbers() {
