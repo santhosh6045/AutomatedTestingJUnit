@@ -25,12 +25,6 @@ public class calculatorTest {
 	}
 	
 	@Test
-	public void addFourNumbers() {
-		assertEquals(25, calc.add(5, 5, 10, 5));
-		
-	}
-
-	@Test
 	public void subtractTwoNumbers() {
 		assertEquals(0, calc.subtract(10, 10));
 		
